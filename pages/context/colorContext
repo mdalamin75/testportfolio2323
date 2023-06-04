@@ -1,0 +1,25 @@
+// import { createContext } from "react";
+
+// const ColorContext = createContext({ toggleColorMode: () => {} });
+
+// const ColorProvider = () => {
+//     const [mode, setMode] = React.useState('light');
+//     const colorMode = React.useMemo(
+//       () => ({
+//         toggleColorMode: () => {
+//           setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+//         },
+//       }),
+//       [],
+//     );
+//     return (
+//         <ColorContext.Provider value={{colorMode}}>
+//         </ColorContext.Provider>
+//     )
+// }
+
+// const useColorContext = () => {
+//     return useContext(ColorContext);
+// }
+
+// export {ColorProvider, useColorContext};
